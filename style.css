@@ -1,6 +1,7 @@
 *{
   box-sizing: border-box;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  border-color: none;
 }
 
 body{
@@ -41,8 +42,14 @@ h1{
   border: 2px solid #f0f0f0;
   border-radius: 5px;
   padding: 5px;
-  
  }
+ 
+ input:focus{
+  outline: none;
+}
+#username{
+  color: none;
+}
 
  #btn{
   margin-top: 30px;
